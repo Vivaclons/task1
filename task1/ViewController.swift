@@ -23,9 +23,9 @@ class test: ViewController{
 class ViewController: UIViewController, parameters {
     func setBackGroundColor(_ color: Color) {
         if color.color == true{
-            self.view.backgroundColor = .green
+            self.view.backgroundColor = .yellow
         } else {
-            self.view.backgroundColor = .blue
+            self.view.backgroundColor = .gray
         }
     }
     
@@ -34,7 +34,7 @@ class ViewController: UIViewController, parameters {
     }
     
     func printCurrentVCName() {
-        labelText.text = "Welcome to First Page!"
+        labelText.text = "Welcome to Hello Page!"
         print("Welcome to First Page!")
     }
     var trfa: Bool?
